@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 9px;
+  font-size: 16px;
+}
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
