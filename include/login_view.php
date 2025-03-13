@@ -11,7 +11,5 @@ function check_login_error()
         unset($_SESSION["errorLogin"]);
     } elseif (isset($_GET["login"]) && $_GET["login"] === "success") {
         echo '<p class="success">Login successful</p>';
-        header("Location: index2.php");
-        exit();
     }
 }

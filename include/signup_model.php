@@ -28,8 +28,8 @@ function get_email(object $conn,string $email){
 }
 
 function insert_user(object $conn, string $username, string $password, string $email) {
-    $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+    // $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
-    $query = "INSERT INTO `user` (`username`, `password`, `email`) VALUES ('$username', '$hashed_password', '$email');";
+    $query = "INSERT INTO `user` (`username`, `password`, `email`) VALUES ('$username', '$password', '$email');";
     $conn->query($query);
 }
