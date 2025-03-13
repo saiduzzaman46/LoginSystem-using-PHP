@@ -52,9 +52,8 @@ button:hover {
   background-color: #444;
 }
 
-.forgot-password {
+/* .forgot-password {
   display: block;
-  margin-bottom: 8px;
   font-size: 14px;
   color: #007bff;
   text-decoration: none;
@@ -62,7 +61,7 @@ button:hover {
 
 .forgot-password:hover {
   text-decoration: underline;
-}
+} */
 
 .error {
   color: red;

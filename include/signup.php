@@ -35,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 }
             }
         }
-
         if ($error) {
             $_SESSION["errorSignup"] = $error;
             $signupData = [
@@ -64,3 +63,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     header("Location: ../index.php");
     die();
 }
+?>

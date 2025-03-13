@@ -33,7 +33,6 @@ function check_signup_error()
         foreach ($error as  $value) {
             echo '<p class="error">' . $value . '</p>';
         }
-
         unset($_SESSION["errorSignup"]);
     } elseif (isset($_GET["signup"]) && $_GET["signup"] === "success") {
         echo '<p class="success">Signup successful</p>';
@@ -41,3 +40,4 @@ function check_signup_error()
         exit();
     }
 }
+

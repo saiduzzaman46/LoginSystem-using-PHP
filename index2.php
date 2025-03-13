@@ -19,7 +19,7 @@ require_once "include/login_view.php";
         <h2>Login</h2>
         <input type="text" name="username" placeholder="Username" />
         <input type="password" name="password" placeholder="Password" />
-        <a class="forgot-password">Forgot Password?</a>
+        <!-- <a class="forgot-password">Forgot Password?</a> -->
         <?php
         check_login_error();
         ?>
